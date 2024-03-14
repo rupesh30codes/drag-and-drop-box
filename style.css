@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+} 
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C363F;
+}
+h1{
+    position: absolute;
+    top: 25px;
+    color: #F2F5EA;
+}
+#right,#left{
+    min-height: 400px;
+    width: 300px;
+    background-color:#D6DBD2;
+    margin: 25px;
+    border:2px solid white;
+}
+.list{
+    background-color: #E75A7C;
+    margin: 20px;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:grab;
+    font-size: 18px;
+}
